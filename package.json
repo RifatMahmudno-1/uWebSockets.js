@@ -1,0 +1,25 @@
+{
+	"name": "uwebsockets",
+	"type": "module",
+	"version": "1.0.0",
+	"main": "index.ts",
+	"scripts": {
+		"start": "node build/index.js",
+		"dev": "tsx --watch index.ts",
+		"build": "tsc"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"@types/cookie": "^0.6.0",
+		"@types/node": "^22.5.0",
+		"cookie": "^0.6.0",
+		"dotenv": "^16.4.5",
+		"path-to-regexp": "^7.1.0",
+		"tsx": "^4.17.0",
+		"typescript": "^5.5.4",
+		"uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.47.0"
+	}
+}
